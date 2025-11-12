@@ -219,6 +219,7 @@ header {
         }
 
         input {
+            outline: none;
             border: none;
             font-weight: 700;
             font-size: 18px;
@@ -246,9 +247,10 @@ header {
                 padding: 0;
                 font-size: 18px;
                 margin-left: 20px;
+                border-radius: 0%;
 
                 &::placeholder {
-                    color: #8E8E8E;
+                    color: #767676;
                 }
             }
 
